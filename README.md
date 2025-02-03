@@ -11,7 +11,7 @@ Gerador de Números é uma  uma aplicação  backend, ela consiste em um mini si
 # Tecnologias utilizadas
 ## Back end
 - Java
-- Coleçaõ (Set)
+- Coleção (Set)
 
 ```
 # Autor
