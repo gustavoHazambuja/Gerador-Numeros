@@ -24,5 +24,12 @@ public class Number implements Comparable<Number> {
         return number - o.number;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Número: %s", number);
+    }
+
+    
+
 
 }

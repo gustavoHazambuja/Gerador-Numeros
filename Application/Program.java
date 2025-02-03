@@ -16,6 +16,8 @@ public class Program {
 
         numberGenerator.generateNumbers(qtd);
 
+        numberGenerator.displayNumbers();
+
 
     }
 }

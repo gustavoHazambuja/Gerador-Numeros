@@ -21,5 +21,12 @@ public class NumberGenerator {
        
     }
 
-    
+    public void displayNumbers(){
+        if(numbers.isEmpty()){
+            System.out.println("Nenhum número gerado");
+        }
+        for(Number n: numbers){
+            System.out.println(n);
+        }
+    }
 }
