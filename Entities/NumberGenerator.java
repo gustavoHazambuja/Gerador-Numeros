@@ -6,7 +6,7 @@ import java.util.Set;
 public class NumberGenerator {
     
     private Set<Number> numbers;
-    private int randomNumber;
+    private Integer randomNumber;
 
     public NumberGenerator(){
         this.numbers = new HashSet<Number>();
@@ -16,7 +16,7 @@ public class NumberGenerator {
     public void generateNumbers(int qtd){
        while(numbers.size() < qtd){
         randomNumber = (int) (Math.random() * 60) + 1;
-        numbers.add(new Number(randomNumber));
+            numbers.add(new Number(randomNumber));
        }
        
     }
